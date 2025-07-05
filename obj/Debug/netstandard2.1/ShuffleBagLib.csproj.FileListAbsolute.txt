@@ -1,0 +1,9 @@
+D:\Working\Dev-Repos\ShuffleBagLib\bin\Debug\netstandard2.1\ShuffleBagLib.deps.json
+D:\Working\Dev-Repos\ShuffleBagLib\bin\Debug\netstandard2.1\ShuffleBagLib.dll
+D:\Working\Dev-Repos\ShuffleBagLib\bin\Debug\netstandard2.1\ShuffleBagLib.pdb
+D:\Working\Dev-Repos\ShuffleBagLib\obj\Debug\netstandard2.1\ShuffleBagLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\Working\Dev-Repos\ShuffleBagLib\obj\Debug\netstandard2.1\ShuffleBagLib.AssemblyInfoInputs.cache
+D:\Working\Dev-Repos\ShuffleBagLib\obj\Debug\netstandard2.1\ShuffleBagLib.AssemblyInfo.cs
+D:\Working\Dev-Repos\ShuffleBagLib\obj\Debug\netstandard2.1\ShuffleBagLib.csproj.CoreCompileInputs.cache
+D:\Working\Dev-Repos\ShuffleBagLib\obj\Debug\netstandard2.1\ShuffleBagLib.dll
+D:\Working\Dev-Repos\ShuffleBagLib\obj\Debug\netstandard2.1\ShuffleBagLib.pdb

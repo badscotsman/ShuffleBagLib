@@ -1,0 +1,12 @@
+@startuml
+class "ShuffleBag`1"<T> {
+    - _currentIndex : int
+    + ShuffleBag()
+    + Add(item:T) : void
+    + NextItem() : T
+}
+class "List`1"<T> {
+}
+"ShuffleBag`1" --> "_items<T>" "List`1"
+"ShuffleBag`1" --> "_random" Random
+@enduml
