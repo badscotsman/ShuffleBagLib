@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ShuffleBagLib</name>
+    </assembly>
+    <members>
+        <member name="T:ShuffleBagLib.ShuffleBag`1">
+             <summary>
+             Represents a collection that allows random, non-repeating selection of items until all items have been drawn,
+             after which the selection is reshuffled.
+             </summary>
+             <remarks>
+             A ShuffleBag is useful for scenarios where you want to randomly select items without
+             immediate repeats, such as in games or randomized playlists. After all items have been selected once, the bag is
+             reshuffled and selection continues.
+            
+             This class is thread-safe: all access to internal state is synchronized. Thread safety is achieved via explicit
+             locking around all shared state.
+             </remarks>
+             <typeparam name="T">The type of items contained in the ShuffleBag.</typeparam>
+        </member>
+        <member name="M:ShuffleBagLib.ShuffleBag`1.#ctor">
+            <summary>
+            Initializes a new instance of the ShuffleBag class with an empty collection of items.
+            </summary>
+            <remarks>
+            This constructor creates a new ShuffleBag ready to accept items and perform random
+            selection operations. The internal random number generator is initialized for shuffling purposes.
+            </remarks>
+        </member>
+        <member name="M:ShuffleBagLib.ShuffleBag`1.Add(`0)">
+            <summary>
+            Adds an item to the ShuffleBag.
+            </summary>
+            <param name="item">The item to be added.</param>
+        </member>
+        <member name="M:ShuffleBagLib.ShuffleBag`1.NextItem">
+            <summary>
+            Returns the next item from the ShuffleBag.
+            </summary>
+            <returns>The next randomly selected item.</returns>
+            <exception cref="T:System.InvalidOperationException">Thrown when the bag is empty.</exception>
+        </member>
+    </members>
+</doc>
