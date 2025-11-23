@@ -1,5 +1,6 @@
 @startuml
 class "ShuffleBag`1"<T> {
+    - <<readonly>> _syncRoot : object
     - _currentIndex : int
     + ShuffleBag()
     + Add(item:T) : void
